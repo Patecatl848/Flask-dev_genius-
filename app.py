@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from newsapi import NewsApiClient
 
 app = Flask(__name__)
-newsapi = NewsApiClient(api_key='dcbd16c218ef4985a822b478b4f20f49')
+newsapi = NewsApiClient(api_key='****REPLACE_YOUR_API_KEY****')
 
 
 @app.route('/')
